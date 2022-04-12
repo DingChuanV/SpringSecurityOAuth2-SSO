@@ -8,7 +8,7 @@ SpringSecurity+JWT+OAuth2整合实现单点登陆SSO。
 
 身份校验：这一环节是用户携带token去访问其他服务器时，在其他服务器中要对token的真伪进行检验，主要在资源服务器中完成。
 
-## 项目背景
+## 🐈‍⬛项目背景
 
 https://developer.aliyun.com/article/636281
 
