@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringSercurityOAuth2-JWT-server" />
+        <module name="SpringSecurityOAuth2-SSO" />
+        <module name="OAuth2-Client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="OAuth2-Client" target="1.8" />
+      <module name="SpringSecurityOAuth2-SSO" target="1.8" />
+      <module name="SpringSercurityOAuth2-JWT-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OAuth2-Client" options="-parameters" />
+      <module name="SpringSecurityOAuth2-SSO" options="-parameters" />
+      <module name="SpringSercurityOAuth2-JWT-server" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OAuth2-Client/OAuth2-Client.iml" filepath="$PROJECT_DIR$/OAuth2-Client/OAuth2-Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSecurityOAuth2-SSO.iml" filepath="$PROJECT_DIR$/SpringSecurityOAuth2-SSO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSercurityOAuth2-JWT-server/SpringSercurityOAuth2-JWT-server.iml" filepath="$PROJECT_DIR$/SpringSercurityOAuth2-JWT-server/SpringSercurityOAuth2-JWT-server.iml" />
+    </modules>
+  </component>
+</project>

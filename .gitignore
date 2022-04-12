@@ -1,0 +1,3 @@
+# Project exclude paths
+/OAuth2-Client/target/
+/SpringSercurityOAuth2-JWT-server/target/
