@@ -1,9 +1,28 @@
 # SpringSecurityOAuth2-SSO
-SpringSecurity+JWT+OAuth2整合实现单线登陆SSO
+SpringSecurity+JWT+OAuth2整合实现单点登陆SSO。
+
+![image](https://user-images.githubusercontent.com/74408716/162967937-e83fcda9-fc33-4669-b5b4-0576ad81823b.png)
+
+
+用户认证：这一环节主要是用户向认证服务器发起认证请求，认证服务器给用户返回一个成功的令牌token， 主要在认证服务器中完成。
+
+身份校验：这一环节是用户携带token去访问其他服务器时，在其他服务器中要对token的真伪进行检验，主要在资源服务器中完成。
+
+## 项目背景
+
+https://developer.aliyun.com/article/636281
+
+在企业发展初期，企业使用的系统很少，通常一个或者两个，每个系统都有自己的登录模块，运营人员每天用自己的账号登录，很方便。但随着企业的发展，用到的系统随之增多，运营人员在操作不同的系统时，需要多次登录，而且每个系统的账号都不一样，这对于运营人员来说，很不方便。于是，就想到是不是可以在一个系统登录，其他系统就不用登录了呢？
+
+这就是单点登录要解决的问题。
+
+单点登录英文全称Single Sign On，简称就是SSO，在多个应用系统中，只需要登录一次，就可以访问其他相互信任的应用系统。
+
 
 ## 📖项目结构
 
-![](https://bearbrick0.oss-cn-qingdao.aliyuncs.com/images/img/202204121805269.png)
+![image-20220412210112778](https://bearbrick0.oss-cn-qingdao.aliyuncs.com/images/img/202204122101946.png)
+
 
 ## 🧪实现效果
 
